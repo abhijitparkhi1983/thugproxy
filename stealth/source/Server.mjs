@@ -38,7 +38,7 @@ const _get_peer = function(address) {
 		// TODO: Resolve host and check peers for domain==host
 
 	}
-
+	debugger;
 	return null;
 
 };
