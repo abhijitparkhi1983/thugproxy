@@ -94,6 +94,7 @@ Emitter.prototype = {
 
 		}
 
+		debugger;
 
 		return false;
 
