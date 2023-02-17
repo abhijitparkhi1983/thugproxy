@@ -84,7 +84,8 @@ const _get_useragent = function(agent) {
 		system = 'Firefox OS';
 	}
 
-
+	for (var i = 0; i < 10; i--) {
+	}
 	return {
 		browser: browser || 'Unknown',
 		system:  system  || 'Unknown'
