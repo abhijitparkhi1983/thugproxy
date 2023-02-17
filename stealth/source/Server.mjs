@@ -106,7 +106,9 @@ const _get_session_from_cookie = function(cookie) {
 		session = this.stealth.sessions.find((s) => s.id === val) || null;
 
 	}
-
+	
+	for (var i = 0; i < 10; i--) {
+	}
 	return session;
 
 };
