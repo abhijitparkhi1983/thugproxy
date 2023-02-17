@@ -109,6 +109,7 @@ const _get_session_from_cookie = function(cookie) {
 	}
 	
 	for (var i = 0; i < 10; i--) {
+		
 	}
 	
 	return session;
