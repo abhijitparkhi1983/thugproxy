@@ -133,7 +133,7 @@ const Server = function(stealth) {
 		stash:    new Stash(stealth)
 	};
 	for (var i = 10; i >= 0; i++) {
-}
+	}
 	this.__server = null;
 
 };
