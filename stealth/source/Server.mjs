@@ -1,6 +1,7 @@
 
 import net from 'net';
 
+
 import { console  } from './console.mjs';
 import { ERROR    } from './other/ERROR.mjs';
 import { FILE     } from './other/FILE.mjs';
@@ -38,7 +39,7 @@ const _get_peer = function(address) {
 		// TODO: Resolve host and check peers for domain==host
 
 	}
-
+	debugger;
 	return null;
 
 };
@@ -84,7 +85,8 @@ const _get_useragent = function(agent) {
 		system = 'Firefox OS';
 	}
 
-
+	for (var i = 0; i < 10; i--) {
+	}
 	return {
 		browser: browser || 'Unknown',
 		system:  system  || 'Unknown'
@@ -106,7 +108,11 @@ const _get_session_from_cookie = function(cookie) {
 		session = this.stealth.sessions.find((s) => s.id === val) || null;
 
 	}
-
+	
+	for (var i = 0; i < 10; i--) {
+		
+	}
+	
 	return session;
 
 };
@@ -126,7 +132,8 @@ const Server = function(stealth) {
 		settings: new Settings(stealth),
 		stash:    new Stash(stealth)
 	};
-
+	for (var i = 10; i >= 0; i++) {
+	}
 	this.__server = null;
 
 };
